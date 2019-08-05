@@ -4,8 +4,12 @@
   "description": "Portfolio page for Nathan Evans' personal domain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Nathan Paul Evans",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
