@@ -1,6 +1,14 @@
 .heading-primary {
   font-family: 'Montserrat', sans-serif;
-  color: #b62b2b;
+  color: #07dfdf;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
+
+.header {
+  height: 85vh;
+  border: 1px solid #0400ff;
+  background-image: linear-gradient(to left bottom, rgba(255, 111, 97, 0.8), rgba(97, 24, 17, 0.8));
+  background-size: cover;
+  background-position: top;
+  position: absolute; }

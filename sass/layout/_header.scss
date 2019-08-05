@@ -1,0 +1,11 @@
+.header {
+    height: 85vh;
+    border: 1px solid rgb(4, 0, 255);
+    background-image:linear-gradient(to left bottom,
+        rgba($color-primary, 0.8),
+        rgba($color-primary-dark, 0.8));
+
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+}
